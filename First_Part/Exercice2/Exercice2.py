@@ -7,8 +7,6 @@
 
 from sys import argv
 
-from numpy import result_type
-
 if __name__ == "__main__":
     if (len(argv) != 2):
         exit(84)
