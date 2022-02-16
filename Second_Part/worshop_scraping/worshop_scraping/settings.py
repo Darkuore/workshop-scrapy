@@ -11,6 +11,7 @@ BOT_NAME = 'worshop_scraping'
 
 SPIDER_MODULES = ['worshop_scraping.spiders']
 NEWSPIDER_MODULE = 'worshop_scraping.spiders'
+ROBOTSTXT_OBEY = False
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
